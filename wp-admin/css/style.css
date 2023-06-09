@@ -1,3 +1,7 @@
+
+/* The authors disclaim copyright to this source code */
+ 
+
 body { 
 	color: #000000; 
 	line-height: 1.5; 
@@ -12,9 +16,12 @@ body {
   		"Liberation Sans",
   		sans-serif;
 	text-align:center; 
-	margin-right:2px; 
-	margin-left:2px;
+	margin-right:0px; 
+	margin-left:0px;
+	border: 0px;
+	margin: 0px;
 }
+
 pre,code { 
 	font-family: 
 		Menlo, Monaco, 
@@ -52,13 +59,15 @@ a:hover {text-decoration: underline #5050FF;
 li {margin-bottom: 8px;}
 ul {list-style-type: none;}
 
+button {display:inline-block;}
+
 @media screen and (min-width: 600px) {
 p {max-width: 60%;}
 }
 
 
 @media screen and (min-width: 960px) {
-body {font-size:120%; margin-right:12%; margin-left:12%;}
+body {font-size:120%;}
 }
 
 div.head {font-size:1.6vw;}
